@@ -31,7 +31,7 @@ let package = Package(
         .target(
             name: "Systems",
             dependencies: [
-                .product(name: "System", package: "swift-system"),
+                .product(name: "System Primitives", package: "swift-system"),
                 .product(name: "Kernel", package: "swift-kernel"),
                 .product(
                     name: "Darwin System",
@@ -57,7 +57,7 @@ let package = Package(
             dependencies: [
                 "Systems",
                 .product(name: "Kernel System", package: "swift-kernel"),
-                .product(name: "System", package: "swift-system"),
+                .product(name: "System Primitives", package: "swift-system"),
             ]
         ),
     ],
