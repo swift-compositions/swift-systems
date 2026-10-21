@@ -49,7 +49,6 @@ let package = Package(
                     condition: .when(platforms: [.windows])
                 ),
 
-
             ]
         ),
         .testTarget(
